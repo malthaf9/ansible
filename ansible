@@ -162,3 +162,16 @@ step 2: after opening the file write as below
 step1: ansible-galaxy role init kubernetes - in output it shows role kuberenetes was created succesfully
 
 -> we can push this in github repo
+
+step1: cd /path/to/your/project
+       git init
+step2: git add .
+       git commit -m "Initial commit of Ansible role"
+step3: git remote add origin https://github.com/username/ansible-roles.git
+step4: git branch -M main
+       git push -u origin main
+step5: verify files on github
+
+
+
+
